@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../../../Documents/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.css">
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background-color: rgb(18, 18, 18);
+        color: white;
+        font-family: sans-serif;
+        /* border: 1px solid red; */
+    }
+    header{
+        padding: 32px;
+        align-items: center;
+        display: inline-flex;
+        color: white;
+        gap: .4rem;
+        font-family: Helvetica, ;
+        width: 400;
+        size: 16px;
+        /* border: 1px solid red; */
+    }
+    img{
+        width: 30px;
+    }
+    section{
+        height: 84vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        margin: 0px 27%;
+        padding: 0px 32px;
+        display: flex;
+        /* border: 1px solid red; */
+    }
+    .b{
+        /* height: 585px; */
+        /* width: 340px; */
+        display: block;
+        /* border: 1px solid red; */
+    }
+    .spot{
+        /* height: 95px; */
+        width: 330px;
+        display: block;
+        text-align: start;
+        margin-bottom: 40px;
+        /* border: 1px solid red; */
+    }
+    section h1{
+        font-size: 35px;
+    }
+    form{
+        width: auto;
+        /* height: 160px; */
+        line-height: 2rem;
+        /* border: 1px solid red; */
+    }
+    .input1{
+        width: 300px;
+        height: 38px;
+        border-radius: 3px;
+        padding-left: 10px;
+        font-weight: 500;
+        margin-bottom: 7px;
+        border: 1px solid;
+    }
+    .next{
+        width: 280px;
+        color: black;
+        padding: 5px 18px;
+        font-weight: 600;
+        margin-top: 5px;
+        border-radius: 20px;
+        background-color: rgb(30,215,96);
+    }
+    .next button{
+        justify-content: center;
+        width: 300px;
+        font-size: 16px;
+        color: black;
+        background-color: transparent;
+        border: none;
+    }
+    .next a{
+        text-decoration: none;
+        color: black;
+    }
+    ul{
+        list-style: none;
+        padding: 0px;
+        text-indent: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 324px;
+        margin: 0px auto;
+        row-gap: normal;
+        color: white;
+    }
+    ul li{
+        display: flex;
+        justify-content: start;
+        padding-bottom: 10px;
+        background-color: rgb(18, 18, 18);
+    }
+    .gbutton{
+        width: 305px;
+        font-size: 13px;
+        padding:4px 6px;
+        font-weight: 600;
+        border-radius: 80px;
+        border: 1.5px solid rgb(102,102,102);
+        display: inline-flex;
+        padding-left: 30px;
+        align-items: center;
+        gap: 1.5rem;
+        background-color: black;
+        color: white;
+    }
+    .fbutton{
+        width: 305px;
+        font-size: 13px;
+        font-weight: 600;
+        padding: 4px 6px;
+        border-radius: 80px;
+        border: 1.5px solid rgb(102,102,102);
+        display: inline-flex;
+        padding-left: 30px;
+        align-items: center;
+        gap: 1.5rem;
+        background-color: black;
+        color: white;
+    }
+    .glogo, .flogo{
+        width: 22px;
+    }
+    .last{
+        width: auto;
+        /* height: 245px; */
+        margin-top: 34px;
+        /* border: 1px solid red; */
+    }
+    p{
+        font-size: 1rem;
+        font-weight: 400;
+        color: var(--text-subdued,#6a6a6a);
+    }
+    .last a{
+        color: white;
+    }
+    .divider{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+    .line{
+        flex: 1;
+        height: 1px;
+        background-color: white;
+    }
+    .or{
+        margin: 0 10px;
+    }
+    .input{
+        border-radius: 25px;
+        /* border: 5px solid rebeccapurple; */
+    }
+    .l{
+        color: #6a6a6a;
+        margin-bottom: 25px;
+        margin-top: 15px;
+        border: none;
+        /* height: 1px; */
+        border-bottom: 1px solid;
+    }
+    footer{
+        padding: 24px;
+        /* border: 1px solid red; */
+    }
+    footer span{
+        display: block;
+        color: var(--text-subdued,#6a6a6a);
+    }
+    footer p{
+        align-items: center;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        font-size: 0.687rem;
+        font-weight: 400;
+        text-align: center;
+        color: inherit;
+    }
+    p a{
+        color: var(--text-subdued,#6a6a6a);
+    }
+    .input1{
+        background-color: black;
+        color: var(--text-subdued,#6a6a6a);
+    }
+    .z{
+        color: #6a6a6a;
+        font-size: 0.89rem;
+    }
+</style>
+<body>
+        <header>
+            <a href="./LandingPage.html"><img src="./Spotify/spotify1.svg" alt=""></a> <h2>Spotify</h2>
+        </header>
+        <section>
+                <div class="b ">
+                    <div class="spot"><h1>Sign up to start listening</h1></div class="spot">
+                    <form action="">
+                        <div>Email Address</div>
+                        <input class="input1" placeholder="name@domain.com" type="email">
+                        <div style="color: rgb(30,215,96);"><a style="color: rgb(30,215,96); font-size: 13px;" href="">Use phone number instead.</a></div>
+                        <div class="next"><button type="button"><a href="">Next</a></button></div>
+                    </form>
+                    <div class="last">
+                        <div class="divider">
+                          <div class="line"></div>
+                          <div class="or">or</div>
+                          <div class="line"></div>
+                        </div>
+                    <ul>
+                        <li><button class="gbutton"><div><img src="./Spotify/google-svgrepo-com.svg" alt="" class="glogo"></div><div> Continue with Google</div></button></li>
+                        <li><button class="fbutton"><div><img src="./Spotify/facebook1.svg" alt="" class="flogo"></div><div> Continue with Facebook</div></button></li>
+                    </ul>
+                    <div class="l"></div>
+                          <p class="z">Already have an account? <a href="./Login.html">Log in here.</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <span>
+                <p class="d-block justify-content-center">This site is protected by reCAPTCHA and the Google <br> <a href="">Privacy Policy</a> and <a href="">Terms of Services </a>apply</p>
+            </span>
+        </footer>
+</body>
+<script src="../../../../../Documents/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+</html>
