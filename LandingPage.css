@@ -128,7 +128,7 @@
         border-radius: 20px;
     }
     .lastdiv{
-        height: 36vh;
+        height: 33vh;
         /* width: 234px; */
         overflow: hidden;
         /* border: 1px solid red; */
@@ -433,16 +433,16 @@
         width: 35px;
         height: 34px;
     }
-    bottom{
-        /* background-image: linear-gradient(90deg,#af2896,#509bf5); */
+    .bottom{
+        background-image: linear-gradient(90deg,#af2896,#509bf5);
         /* border: 5px solid red; */
         /* padding-top: 5px; */
-        /* width: 100%; */
-        /* position: fixed; */
+        width: 100%;
+        position: fixed;
         /* top: 540px; */
-        /* bottom: 4px; */
+        bottom: 4px;
     }
-    bottom{
+    .bottom div{
         /* border: 1px solid orange;
         align-items: center;
         display: flex;
@@ -451,43 +451,37 @@
         /* gap: 24px; */
         /* height: 47px; */
 
-        /* padding: 5px 20px 4px 10px; 
+        padding: 5px 20px 4px 10px; 
+        /* align-items: center; */
+        /* display: flex; */
         flex-direction: row;
         gap: 20px;
-        height: 50px; */
+        height: 50px;
     }
-    review{
+    .review{
         /* display: block; */
         /* width: 636px; */
-        /* height: 38px;
+        height: 38px;
         margin: 0 0 4px;
-        color: var(--text-base); */
+        color: var(--text-base);
     }
-    p1{
+    .p1{
         /* text-transform: uppercase; */
-        /* letter-spacing: 0.1em;
+        letter-spacing: 0.1em;
         font-size: 0.62rem;
-        font-weight: 400; */
+        font-weight: 400;
         /* width: 630px; */
         /* height: 16px; */
     }
-    p2{
-        /* font-size: 0.8rem;
+    .p2{
+        font-size: 0.8rem;
         font-weight: 400;
         width: 630px;
-        height: 21px; */
+        height: 21px;
     }
-    .bottom button
-        /* padding: 12px 10px;
+    .bottom button{
+        padding: 12px 10px;
         border-radius: 40px;
         border: none;
         color: black;
-    } */
-
-    nav{
-        border: 5px solid red;
-        width: 100%;
-        height: 30px;
-        background-image: linear-gradient(90deg,#af2896,#509bf5);
-        position: fixed;
     }
